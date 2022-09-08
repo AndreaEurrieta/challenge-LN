@@ -1,0 +1,40 @@
+.com-search{
+    position: relative;
+    vertical-align: baseline;
+    height: 3.7rem;
+}
+.com-search__input{
+    padding: 1rem;
+    border: 0.1rem solid #cccccc;
+    border-radius: 0.3rem;
+    position: relative;
+    z-index: 100;
+    background: transparent;
+}
+.icon-search{
+    position: absolute;
+    left: 16rem;
+    z-index: 150;
+    font-size: 2.6rem;
+    top: 0.6rem;
+}
+.icon-search::before{
+    content: "\e916";
+}
+.com-search__submit{
+    margin-left: 1rem;
+    display: none;
+}
+.--btn{
+    font-size: 1.2rem;
+    padding: 1.2rem 2.4rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.--primary{
+    background-color: #0074c4;
+    border: 0.1rem solid #0074c4;
+    color: #ffffff;
+}

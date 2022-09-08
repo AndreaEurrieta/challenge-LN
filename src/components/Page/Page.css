@@ -1,0 +1,12 @@
+.lay-sidebar{
+    max-width: 134rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-box-direction: normal;
+}

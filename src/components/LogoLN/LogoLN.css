@@ -1,0 +1,21 @@
+.header__middle__logo{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.header__middle__logo:hover{
+    opacity: 0.8;
+}
+.logo-la-nacion{
+    color: #006998;
+    font-size: 4rem;
+    font-family: 'icomoon';
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1;
+}
+
+.logo-la-nacion::before{
+    content: "LA NACION";
+}

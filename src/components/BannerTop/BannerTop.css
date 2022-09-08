@@ -1,0 +1,24 @@
+.--bg-banner{
+    background-color: #f3f3f3;
+    margin-bottom: 4rem;
+}
+.w100{
+    width: 100% !important;
+    margin-left: 0;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    height: 17rem;
+}
+.--top{
+    max-width: 126rem;
+    width: 100%;
+    height: 17rem;
+} 
+.--desktop{
+    display: block;
+    margin: auto;
+    background: #a0dbe9;
+}

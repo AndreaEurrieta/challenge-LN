@@ -1,0 +1,18 @@
+.sidebar__main{
+    margin-right: 8rem;
+    flex-basis: 100%;
+}
+.hlp-marginBottom-15{
+    margin-bottom: 1.5rem;
+}
+.com-title-section-xl{
+    font-family: "SuecaSlab", "Georgia", "serif";
+    font-size: 1.875rem;
+    font-weight: 500;  
+    line-height: 2.3125rem; 
+    letter-spacing: -0.04rem;
+    border-bottom: 0.3rem solid #000000;
+}
+.hlp-marginBottom-40{
+    margin-bottom: 4rem;
+}
