@@ -4,19 +4,21 @@ import '../Header/Header.css'
 import { Card } from '../Card/Card'
 import { FilterArticles } from '../../Helpers/FilterArticles'
 import { Service } from '../../services/Service'
+import { getTagList, TagList } from '../Tags/TagList'
 
 export const AccumulatedMain = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        establecerEstado()
+        state()
     }, []);
 
-    const establecerEstado = async () => {
+    const state = async () => {
         const res = await Service()
         setItems(FilterArticles(res))
     };
-    console.log(items)
+
+    getTagList(items)
     return (
         <div className='sidebar__main'>
             <div className='row'>
@@ -25,9 +27,7 @@ export const AccumulatedMain = () => {
                 </div>
             </div>
             <div className='row'>
-                <div>
-                    
-                </div>
+                
             </div>
             <section className='row-gap hlp-degrade'>
                 {
