@@ -2,7 +2,7 @@ import React from 'react'
 import { BannerSideBar } from '../BannerSideBar/BannerSideBar'
 import { BannerTop } from '../BannerTop/BannerTop'
 import { Header } from '../Header/Header'
-import { MainAcumulado } from '../MainAcumulado/MainAcumulado'
+import { AccumulatedMain } from '../AccumulatedMain/AccumulatedMain'
 import './Page.css'
 
 export const Page = () => {
@@ -12,7 +12,7 @@ export const Page = () => {
       <main>
         <BannerTop/>
         <div className='lay-sidebar'>
-          <MainAcumulado/>
+          <AccumulatedMain/>
           <BannerSideBar/>
         </div>
       </main>  

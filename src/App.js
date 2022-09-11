@@ -1,7 +1,5 @@
 import './App.css';
 import { Page } from './components/Page/Page';
-import { Services } from './services/Services';
-
 
 function App() {
   return (
@@ -10,6 +8,4 @@ function App() {
     </>
   );
 }
-Services();
-
 export default App;

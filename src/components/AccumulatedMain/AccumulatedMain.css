@@ -16,3 +16,12 @@
 .hlp-marginBottom-40{
     margin-bottom: 4rem;
 }
+.row-gap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.hlp-degrade{
+    position: relative;
+}
