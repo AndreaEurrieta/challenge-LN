@@ -1,7 +1,23 @@
+
 .com-secondary-tag{
     white-space: initial;
     overflow-x: initial;
 }
-.hlp-marginBottom-20{
-    margin-bottom: 2rem;
+.a-tags{
+    font-family: "Arial", "sans-serif";
+    font-size: 1.2rem;
+    margin-right: 1.7rem;
+    display: inline-block;
+    position: relative;
+    color: #0074c4;
+    margin-bottom: 1rem;
+}
+.a-tags::after{
+    content: '·';
+    display: inline-block;
+    position: absolute;
+    color: #006998;
+    right: -1.4rem;
+    font-size: 2rem;
+    line-height: 1.5rem;
 }

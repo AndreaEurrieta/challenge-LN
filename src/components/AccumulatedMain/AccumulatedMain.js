@@ -4,7 +4,8 @@ import '../Header/Header.css'
 import { Card } from '../Card/Card'
 import { FilterArticles } from '../../Helpers/FilterArticles'
 import { Service } from '../../services/Service'
-import { getTagList, TagList } from '../Tags/TagList'
+import { GetTagList } from '../../Helpers/GetTagList'
+import { Tags } from '../Tags/Tags'
 
 export const AccumulatedMain = () => {
     const [items, setItems] = useState([]);
@@ -17,17 +18,21 @@ export const AccumulatedMain = () => {
         const res = await Service()
         setItems(FilterArticles(res))
     };
-
-    getTagList(items)
+    
+    const tagsList = GetTagList(items);
+    
     return (
         <div className='sidebar__main'>
             <div className='row'>
                 <div className='hlp-marginBottom-15'>
-                    <h1 className='com-title-section-xl hlp-marginBottom-40'>Acumulado Grilla</h1>
+                    <h1 className='com-title-section-xl '>Acumulado Grilla</h1>
                 </div>
             </div>
             <div className='row'>
-                
+                {
+                (tagsList) && (tagsList.map((tags) => <Tags
+                    tags={tags}
+                />))}
             </div>
             <section className='row-gap hlp-degrade'>
                 {
