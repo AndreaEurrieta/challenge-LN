@@ -66,13 +66,15 @@ a:hover{
 }
 
 .com-title-acu{
-    font-size: 1.0625rem;
-    line-height: 1.5rem;
-    letter-spacing: -0.04rem;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    letter-spacing: -0.025rem;
     font-family: "SuecaSlab", "Georgia", "serif";
     color: #000000;
     margin-top: 0.4375;
     cursor: pointer;
+    font-weight: normal;
 }
 
 b{
@@ -80,7 +82,7 @@ b{
 }
 
 .com-date{
-    font: 400 0.875rem "Arial", "sans-serif";
+    font: 400 1.35rem "Arial", "sans-serif";
     color: #5a5a5a;
     margin-top: 0.6rem;
 }

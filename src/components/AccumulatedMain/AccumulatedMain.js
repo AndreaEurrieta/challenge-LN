@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import './AccumulatedMain.css'
 import '../Header/Header.css'
 import { Card } from '../Card/Card'
-import { FilterArticles } from '../../Helpers/FilterArticles'
+import { FilterArticles } from '../../Helpers/FilterArticles/FilterArticles'
 import { Service } from '../../services/Service'
-import { GetTagList } from '../../Helpers/GetTagList'
+import { GetTagList } from '../../Helpers/GetTagList/GetTagList'
 import { Tags } from '../Tags/Tags'
 
 export const AccumulatedMain = () => {

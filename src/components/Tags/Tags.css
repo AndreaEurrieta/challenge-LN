@@ -5,12 +5,12 @@
 }
 .a-tags{
     font-family: "Arial", "sans-serif";
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     margin-right: 1.7rem;
     display: inline-block;
     position: relative;
     color: #0074c4;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .a-tags::after{
     content: '·';
