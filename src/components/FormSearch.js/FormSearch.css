@@ -18,9 +18,6 @@
     font-size: 2.6rem;
     top: 0.6rem;
 }
-.icon-search::before{
-    content: "\e916";
-}
 .com-search__submit{
     margin-left: 1rem;
     display: none;

@@ -4,6 +4,7 @@ import { BannerTop } from '../BannerTop/BannerTop'
 import { Header } from '../Header/Header'
 import { AccumulatedMain } from '../AccumulatedMain/AccumulatedMain'
 import './Page.css'
+import { Footer } from '../Footer/Footer'
 
 export const Page = () => {
   return (
@@ -15,7 +16,8 @@ export const Page = () => {
           <AccumulatedMain/>
           <BannerSideBar/>
         </div>
-      </main>  
+      </main>
+     <Footer/>  
     </>
   )
 }

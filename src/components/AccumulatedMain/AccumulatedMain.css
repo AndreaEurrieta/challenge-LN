@@ -23,3 +23,17 @@
 .hlp-degrade{
     position: relative;
 }
+
+.col-12{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+.hlp-text-center{
+    text-align: center;
+}
+.hlp-margintop-40{
+    margin-top: 4rem;
+}
