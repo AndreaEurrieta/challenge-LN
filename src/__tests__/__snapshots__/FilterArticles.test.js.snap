@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Helpers-FilterArticles Debería devolver solo artículos de subtipo 7 1`] = `
+Array [
+  Object {
+    "_id": "ZNJ67CCHJNAEBE6IUETWOXMNFM",
+    "display_date": 2019-12-06T00:00:00.000Z,
+    "headlines": Object {
+      "basic": "Arroz con Leche",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/24QQFAJS3ZGTFL5KXDDUNP5UJU.jpg",
+      },
+    },
+    "subtype": "7",
+  },
+]
+`;
