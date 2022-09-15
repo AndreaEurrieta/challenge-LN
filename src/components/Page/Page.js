@@ -9,15 +9,15 @@ import { Footer } from '../Footer/Footer'
 export const Page = () => {
   return (
     <>
-     <Header/>
+      <Header />
       <main>
-        <BannerTop/>
+        <BannerTop />
         <div className='lay-sidebar'>
-          <AccumulatedMain/>
-          <BannerSideBar/>
+          <AccumulatedMain />
+          <BannerSideBar />
         </div>
       </main>
-     <Footer/>  
+      <Footer />
     </>
   )
 }

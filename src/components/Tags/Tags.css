@@ -1,9 +1,9 @@
-
-.com-secondary-tag{
+.com-secondary-tag {
     white-space: initial;
     overflow-x: initial;
 }
-.a-tags{
+
+.a-tags {
     font-family: "Arial", "sans-serif";
     font-size: 1.35rem;
     margin-right: 1.7rem;
@@ -12,7 +12,8 @@
     color: #0074c4;
     margin-bottom: 2rem;
 }
-.a-tags::after{
+
+.a-tags::after {
     content: '·';
     display: inline-block;
     position: absolute;

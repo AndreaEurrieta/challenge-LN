@@ -1,4 +1,4 @@
-.mod-caja-nota{
+.mod-caja-nota {
     display: flex;
     align-content: flex-start;
     -webkit-box-orient: vertical;
@@ -6,31 +6,31 @@
     flex-direction: column;
 }
 
-.w-100-mobile{
+.w-100-mobile {
     width: 100%;
     margin-left: 0;
 }
 
-.cont-figure{
+.cont-figure {
     background-color: #f2f2f2;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
 
-a:hover{
+a:hover {
     opacity: 0.8;
 }
 
-.figure{
+.figure {
     position: relative;
     background-color: #f2f2f2;
 }
 
-.content-pic{
+.content-pic {
     width: 100%;
     background: #f2f2f2;
     max-height: 100%;
@@ -44,11 +44,11 @@ a:hover{
     align-items: center;
 }
 
-.picture{
+.picture {
     padding-top: calc((2/3)*100%);
 }
 
-.content-img{
+.content-img {
     display: flex;
     position: absolute;
     top: 0;
@@ -56,16 +56,17 @@ a:hover{
     transition: all .2s ease-in-out;
     width: 100%;
 }
-.content-img:hover{
+
+.content-img:hover {
     opacity: 0.8;
 }
 
-.mod-caja-nota__descript{
+.mod-caja-nota__descript {
     padding-left: 0;
     padding-right: 0;
 }
 
-.com-title-acu{
+.com-title-acu {
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 2.3rem;
@@ -77,11 +78,11 @@ a:hover{
     font-weight: normal;
 }
 
-b{
+b {
     font-weight: 600;
 }
 
-.com-date{
+.com-date {
     font: 400 1.35rem "Arial", "sans-serif";
     color: #5a5a5a;
     margin-top: 0.6rem;

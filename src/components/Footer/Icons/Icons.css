@@ -1,4 +1,4 @@
-.col-desksm-4{
+.col-desksm-4 {
     -webkit-box-flex: 0;
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.footer-header__redes{
+.footer-header__redes {
     justify-content: flex-start;
     order: 1;
     display: flex;
@@ -15,10 +15,12 @@
     -webkit-box-align: center;
     align-items: center;
 }
-i{
+
+i {
     margin-right: 2rem;
 }
-.icon{
+
+.icon {
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -29,6 +31,6 @@ i{
 }
 
 
-.app_ios{
+.app_ios {
     margin-left: 3rem;
 }

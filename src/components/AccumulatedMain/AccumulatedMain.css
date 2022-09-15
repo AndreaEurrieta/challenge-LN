@@ -1,39 +1,43 @@
-.sidebar__main{
+.sidebar__main {
     margin-right: 8rem;
     flex-basis: 100%;
 }
-.hlp-marginBottom-15{
+
+.hlp-marginBottom-15 {
     margin-bottom: 1.5rem;
 }
-.com-title-section-xl{
+
+.com-title-section-xl {
     font-family: "SuecaSlab", "Georgia", "serif";
     font-size: 3rem;
-    font-weight: 500;  
-    line-height: 3.8rem; 
+    font-weight: 500;
+    line-height: 3.8rem;
     letter-spacing: -0.05rem;
     border-bottom: 0.3rem solid #000000;
 }
 
-.row-gap{
+.row-gap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4rem;
 }
 
-.hlp-degrade{
+.hlp-degrade {
     position: relative;
 }
 
-.col-12{
+.col-12 {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
     width: 100%;
 }
-.hlp-text-center{
+
+.hlp-text-center {
     text-align: center;
 }
-.hlp-margintop-40{
+
+.hlp-margintop-40 {
     margin-top: 4rem;
 }

@@ -1,5 +1,5 @@
-import {Service} from '../services/Service'
-import articlesMock from '../__mocks__/articlesMock.json' 
+import { Service } from '../services/Service'
+import articlesMock from '../__mocks__/articlesMock.json'
 
 global.fetch = jest.fn(() =>
     Promise.resolve({
@@ -11,7 +11,7 @@ describe("Service", () => {
     beforeEach(async () => {
         resp = await Service();
     });
-    test("Should call correct function", async() => {
+    test("Should call correct function", async () => {
         expect(resp).toEqual(articlesMock.articles);
     });
 });

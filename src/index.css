@@ -3,13 +3,12 @@
 }
 
 * {
-    margin:0; 
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-main{
- padding-top: 10rem;
- padding-bottom: 5rem;   
+main {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
-

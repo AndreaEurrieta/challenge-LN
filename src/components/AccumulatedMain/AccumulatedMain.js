@@ -18,9 +18,9 @@ export const AccumulatedMain = () => {
         const res = await Service()
         setItems(FilterArticles(res))
     };
-    
+
     const tagsList = GetTagList(items);
-    
+
     return (
         <div className='sidebar__main'>
             <div className='row'>
@@ -30,16 +30,17 @@ export const AccumulatedMain = () => {
             </div>
             <div className='row'>
                 {
-                (tagsList) && (tagsList.map((tags) => <Tags
-                    tags={tags}
-                />))}
+                    (tagsList) && (tagsList.map((tags) => <Tags
+                        tags={tags}
+                    />))
+                }
             </div>
             <section className='row-gap hlp-degrade'>
                 {
                     (items) && (items.map((item) => <Card
                         key={item._id}
                         item={item}
-                    />))                        
+                    />))
                 }
             </section>
             <section className='row'>

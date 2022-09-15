@@ -1,4 +1,4 @@
-.com-hamburger{
+.com-hamburger {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,8 @@
     cursor: pointer;
     justify-content: space-between;
 }
-.com-hamburger::before{
+
+.com-hamburger::before {
     content: "MENÚ";
     position: absolute;
     width: 6rem;
@@ -17,7 +18,8 @@
     font-family: Arial;
     text-transform: uppercase;
 }
-.com-hamburger__bar{
+
+.com-hamburger__bar {
     width: 100%;
     height: 0.3rem;
     background-color: #000;

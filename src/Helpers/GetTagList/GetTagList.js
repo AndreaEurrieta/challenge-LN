@@ -1,6 +1,6 @@
 export const GetTagList = (items = []) => {
     const filterTags = (items.map(article => article.taxonomy.tags)).flat()
-    
+
     const orderedArray = []
 
     const countTags = filterTags.map(article => article.slug)
@@ -14,7 +14,7 @@ export const GetTagList = (items = []) => {
         }, {})
 
     for (const slugObj in countTags) {
-        const {text} = filterTags.find(({ slug }) => slug === slugObj)
+        const { text } = filterTags.find(({ slug }) => slug === slugObj)
         orderedArray.push({
             slug: slugObj,
             text: text,
@@ -24,7 +24,7 @@ export const GetTagList = (items = []) => {
 
     orderedArray.sort((a, b) => a.count - b.count).reverse()
 
-    const newArray = orderedArray.slice(0,10)
+    const newArray = orderedArray.slice(0, 10)
 
     return newArray
 }

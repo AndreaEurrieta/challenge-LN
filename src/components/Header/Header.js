@@ -10,11 +10,11 @@ export const Header = () => {
       <nav className='lay'>
         <div className='row'>
           <div className="col-4 header__left">
-            <HamburgerMenu/>
-            <FormSearch/>
+            <HamburgerMenu />
+            <FormSearch />
           </div>
           <div className='col-4 header__middle'>
-            <LogoLN/>
+            <LogoLN />
           </div>
           <div className='col-4 header__right'>
             <div className='com-usuario'>
@@ -22,7 +22,7 @@ export const Header = () => {
               <button className='--btn --secondary'>Ingresar</button>
             </div>
           </div>
-        </div>  
+        </div>
       </nav>
     </header>
   )

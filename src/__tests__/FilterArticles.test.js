@@ -38,4 +38,3 @@ describe("Helpers-FilterArticles", () => {
     expect(FilterArticles()).toBeNull();
   });
 });
-
