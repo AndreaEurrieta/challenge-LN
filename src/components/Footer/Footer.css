@@ -19,12 +19,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 .footer-sitio{
     margin-bottom: 2rem;
@@ -46,47 +42,50 @@
             flex: 0 0 75%;
     max-width: 75%;
 }
+.col-deskxl-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
 .col-deskxl-8{
     -ms-flex: 0 0 66.66667%;
     -webkit-box-flex: 0;
             flex: 0 0 66.66667%;
     max-width: 66.66667%;
+    position: relative;
+    width: 100%;
 }
 .footer-sitio__links{
     display: flex;
-}
-.item_link{
-    font-size: 0.875rem;
-    color: #0074c4;
-    margin-right: 1.3125em;
-    height: fit-content;
-    width: fit-content;
 }
 .footer-sitio__captcha{
     display: flex;
     line-height: 2rem;
 }
 .condition{
+    font-family: Arial, sans-serif;
     color: #0074c4;
     margin-left: 1.5rem;
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
 .private{
+    font-family: Arial, sans-serif;
     color: #0074c4;
     margin-left: 1.5rem;
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
 .item_link{
-    margin-left: 1.5rem;
     font-size: 1.4rem;
     color: #0074c4;
     margin-right: 2.1rem;
     height: fit-content;
     width: fit-content;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
 }
 p{
+    font-family: Arial, sans-serif;
     color: #5a5a5a;
     font-size: 1.4rem;
     line-height: 2rem;
@@ -110,4 +109,13 @@ p{
 }
 .img_data-fiscal {
     width: 3.5rem;
+}
+.footer-copyright__reserved{
+    text-align: left;
+    order: 1;
+    font-family: Arial, sans-serif;
+    color: #5a5a5a;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 100%;
 }

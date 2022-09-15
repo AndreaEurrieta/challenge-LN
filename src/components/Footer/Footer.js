@@ -36,8 +36,8 @@ export const Footer = () => {
                             </a>
                         </p>
                     </section>
-                    <section className="col-desksm-6 col-desk-6 footer-copyright__reserved">
-                        <p>Copyright 2019 SA LA NACION | Todos los derechos reservados</p>
+                    <section className="col-desksm-6 col-desk-6">
+                        <p className='footer-copyright__reserved'>Copyright 2019 SA LA NACION | Todos los derechos reservados</p>
                     </section>
                 </section>
             </div>
