@@ -22,3 +22,8 @@
     font-size: 2rem;
     line-height: 2rem;
 }
+
+.com-secondary-tag .a-tags:last-of-type:after {
+    display: none;
+  }
+  

@@ -29,11 +29,14 @@ export const AccumulatedMain = () => {
                 </div>
             </div>
             <div className='row'>
+            <div className='cont_tags com-secondary-tag hlp-marginBottom-20"'>
+    
                 {
                     (tagsList) && (tagsList.map((tags) => <Tags
                         tags={tags}
                     />))
                 }
+            </div>
             </div>
             <section className='row-gap hlp-degrade'>
                 {
